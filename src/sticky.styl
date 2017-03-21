@@ -1,0 +1,13 @@
+.g-sticky-wrap {
+  display : block;
+  position: relative;
+  .m-stick-component-position {
+    box-sizing : border-box;
+  }
+  .m-real-component {
+    position: relative;
+    &.rendered {
+      position: fixed;
+    }
+  }
+}
